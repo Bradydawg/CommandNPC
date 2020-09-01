@@ -1,5 +1,5 @@
 name: CommandNPC
-version: 2.0-SNAPSHOT
+version: 2.0
 main: me.messageofdeath.commandnpc.CommandNPC
 author: Bradydawg
 api-version: 1.16
