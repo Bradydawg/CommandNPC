@@ -1,14 +1,15 @@
 ![CommandNPC](https://i.imgur.com/awdxHuc.png)
 
-##CommandNPC
+## CommandNPC
 CommandNPC is a plugin inspired by the server Mineplex, which adds a new function to NPCs. It allows users to run commands by simply right clicking on a Citizens NPC. Requires Citizens 2! Keep in mind, if you are an early adopter for any update. If it says unknown webpage, please wait until the BukkitDev staff approve the plugin first. Once approved you'll be able to see it. REQUIRES JAVA 8!
 
 **Command NPC Latest Version - ![https://github.com/Bradydawg/CommandNPC/releases/tag/2.0](https://img.shields.io/github/v/release/Bradydawg/CommandNPC)**
 
-##Discord
+## Discord
+
 [![Discord](https://i.imgur.com/UxvvtYw.png)](https://discord.gg/BpNs7DA)
 
-##Commands and Permissions
+## Commands and Permissions
 
 (Now supports PlaceholderAPI)
 
