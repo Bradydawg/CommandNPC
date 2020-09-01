@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${project.version}
+main: me.messageofdeath.commandnpc.CommandNPC
+author: Bradydawg
+api-version: 1.16
+depend: [Citizens]
+softdepend: [Vault, PlaceholderAPI]
+commands:
+  commandnpc:
+    description: Reload this plugin.
