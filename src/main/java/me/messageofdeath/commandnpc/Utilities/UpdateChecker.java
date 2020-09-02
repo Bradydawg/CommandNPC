@@ -22,7 +22,7 @@ public class UpdateChecker {
     private Result result = Result.SUCCESS;
     private String version;
     private static final String VERSIONS = "/versions";
-    private static final String FIELDS = "?sort=-name";
+    private static final String FIELDS = "?fields=name";
     private static final String API_RESOURCE = "https://api.spiget.org/v2/resources/";
 
     public UpdateChecker(JavaPlugin plugin, int id) {
