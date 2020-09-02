@@ -1,5 +1,24 @@
+# CommandNPC Plugin by Bradydawg
+# Version ${project.version}
+
+# Do NOT Change:
+# Config Version: 2.1.0
+
+# What kind of mouse click will trigger an NPC
+# The types are Both, Left, and Right
 ClickType: Both
+
+# The cool down between clicks on an NPC (prevents spam)
 CoolDown: 20
+
+# Specifies whether you want a command success message to
+# be sent to the player
 ExecuteCommandMessage: true
+
+# Toggles whether or not you want commands to work for
+# bungeecord or not. (server, send, etc)
 BungeeCord: true
+
+# Toggles whether the plugin will automatically check for
+# updates and notify you.
 CheckForUpdates: true

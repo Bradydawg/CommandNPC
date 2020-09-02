@@ -8,3 +8,6 @@ softdepend: [Vault, PlaceholderAPI]
 commands:
   commandnpc:
     description: Reload this plugin.
+permissions:
+  commandnpc.admin:
+    description: Gives the ability to use the reload command and admin commands.
