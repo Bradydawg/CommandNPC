@@ -9,7 +9,8 @@ public enum PluginSettings {
 	CoolDown("20"),
 	ExecuteCommandMessage("false"),
 	BungeeCord("false"),
-	CooldownMessage("true");
+	CooldownMessage("true"),
+	CheckForUpdates("true");
 
 	private String setting;
 	private final String defaultSetting;

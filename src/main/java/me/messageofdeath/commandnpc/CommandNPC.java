@@ -2,6 +2,7 @@ package me.messageofdeath.commandnpc;
 
 import java.util.ArrayList;
 
+import me.messageofdeath.commandnpc.Utilities.UpdateChecker;
 import me.messageofdeath.commandnpc.Database.CommandDatabase;
 import me.messageofdeath.commandnpc.Database.LanguageSettings.LanguageConfiguration;
 import me.messageofdeath.commandnpc.Database.LanguageSettings.LanguageSettings;
@@ -40,6 +41,8 @@ public class CommandNPC extends JavaPlugin {
 	private static boolean placeHolderAPI = false;
 	
 	private static boolean econAvailable = false;
+
+	private UpdateChecker updatechecker = null;
 
 	@Override
 	public void onEnable() {
@@ -80,6 +83,14 @@ public class CommandNPC extends JavaPlugin {
 			this.log("Setting up BungeeCord", true);
 			BungeeCordUtil.setupUtil();
 		}
+
+		/** --------------Checking For Updates-------------- **/
+		this.log("Checking config for update checker", true);
+		if(PluginSettings.CheckForUpdates.getBoolean()) {
+			this.log("Checking for updates", true);
+			updatechecker = new UpdateChecker(this, 83412);
+		}
+
 		this.log("CommandNPC successfully loaded!", true);
 	}
 

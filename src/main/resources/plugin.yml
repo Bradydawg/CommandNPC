@@ -2,7 +2,7 @@ name: ${project.name}
 version: ${project.version}
 main: me.messageofdeath.commandnpc.CommandNPC
 author: Bradydawg
-api-version: 1.16
+api-version: 1.13
 depend: [Citizens]
 softdepend: [Vault, PlaceholderAPI]
 commands:
