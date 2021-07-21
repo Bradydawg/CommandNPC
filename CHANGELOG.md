@@ -1,8 +1,8 @@
-# CommandNPC Changelog v2.1.1
-**This update fixes a small bug with the update checker.**
+# CommandNPC Changelog v2.1.2
+**Updates the plugin to 1.17**
 
 ## Added Features/Updates:
-- The update checker was reading the API incorrectly and was displaying 2.0 as the latest version, it's fixed.
+- Added support for 1.17
 
 
 If you have any troubles or would like to let us know of bugs, issues can be created here: https://github.com/Bradydawg/CommandNPC/issues
